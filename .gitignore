@@ -1,2 +1,10 @@
-node_modules
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+## webstorm ##
 .idea
+
+## development environment ##
+node_modules/
+platforms/
+plugins/
