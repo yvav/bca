@@ -2,9 +2,15 @@
 # http://git-scm.com/docs/gitignore
 
 ## webstorm ##
-.idea
+.idea/
 
 ## development environment ##
 node_modules/
 platforms/
 plugins/
+res/
+resources/
+hooks/
+www/build/
+www/app/
+www/lib/
