@@ -1,9 +1,17 @@
 let ExtractTextPlugin = require("extract-text-webpack-plugin");
+const vendor = ['angular',
+  'angular-resource',
+  'angular-animate',
+  'angular-sanitize',
+  'angular-ui-router',
+  './app/lib/ionic/js/ionic.js',
+  './app/lib/ionic/js/ionic-angular.js'
+];
 
 module.exports = {
   entry: {
-    vendor: "./app/vendor",
-    build: "./app/build"
+    vendor,
+    build: "./app/app"
   },
   output: {
     path: __dirname + '/www/build',

@@ -1,6 +1,8 @@
-module.exports = (function () {
-  'use strict';
+import authorizationComponent from './authorizationComponent';
 
-  angular.
-    module('starter.authorization', []);
+export default (() => {
+
+  angular
+    .module('budget.authorization', [])
+    .component('authorization', authorizationComponent);
 })();
