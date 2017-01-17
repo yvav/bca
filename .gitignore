@@ -2,7 +2,7 @@
 # http://git-scm.com/docs/gitignore
 
 ## webstorm ##
-.idea
+.idea/
 
 ## environment variables
 server/config/env/credentials.js
@@ -11,6 +11,7 @@ server/config/env/credentials.js
 node_modules/
 platforms/
 plugins/
+
 
 
 ## Logs
@@ -23,7 +24,7 @@ pids
 *.pid
 *.seed
 
-# OS generated files
+## OS generated files
 .DS_Store
 .DS_Store?
 ._*
@@ -58,3 +59,11 @@ node_modules
 
 ## Optional REPL history
 .node_repl_history
+
+coverage/
+res/
+resources/
+hooks/
+www/build/
+www/app/
+www/lib/
