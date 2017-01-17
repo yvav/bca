@@ -1,2 +1,0 @@
-require('./authorization/config.js');
-

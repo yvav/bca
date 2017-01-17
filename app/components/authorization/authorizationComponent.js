@@ -1,15 +1,10 @@
-module.exports = (function () {
-  'use strict';
+import template from './authorization.html';
+import authorizationController from './authorizationController';
 
-  let template = require('./authorization.html');
+const authorizationComponent = {
+  template,
+  controller: authorizationController,
+  controllerAs: 'authorizationCtrl'
+};
 
-  const authorizationComponent = {
-    template: template,
-    controller: 'authorizationController',
-    controllerAs: 'authorizationCtrl'
-  };
-
-  angular
-    .module('starter.authorization')
-    .component('authorization', authorizationComponent);
-})();
+export default authorizationComponent;
