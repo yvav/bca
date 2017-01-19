@@ -48,10 +48,6 @@ module.exports = function (config) {
       }
     },
 
-    webpackServer: {
-      noInfo: true // prevent console spamming when running in Karma!
-    },
-
     reporters: ['progress', 'coverage'],
 
     // path for coverage
