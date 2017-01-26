@@ -1,6 +1,68 @@
 <ion-view view-title="Expenses" cache-view="false">
+  <div class="bar bar-header bar-light" style="z-index: 999">
+    <h1 class="title">Expenses</h1>
+  </div>
   <ion-content class="padding has-header">
-    <img ng-src="images/cat-expenses.jpg">
-    <div>Here we must show how much money did person spent</div>
+
+    <div class="expenses-messages">
+      <span>Spent this month: 45$</span>
+      <span>Amount left: 255$</span>
+    </div>
+    <!-- categories-->
+    <div class="menu-title">
+      Pick a category:
+    </div>
+    <div class="row">
+        <a href="#" class="button col menu-item">
+          <span class="menu-item-name">Groceries</span>
+          <i class="icon ion-ios-cart"></i>
+          <span class="menu-item-amount">15$</span>
+        </a>
+        <a href="#" class="button col menu-item">
+          <p class="menu-item-name">Dining</p>
+          <i class="icon ion-coffee"></i>
+          <span class="menu-item-amount">15$</span>
+        </a>
+        <a href="#" class="button col menu-item">
+          <p class="menu-item-name">Fun</p>
+          <i class="icon ion-music-note"></i>
+          <span class="menu-item-amount">15$</span>
+        </a>
+    </div>
+    <div class="row">
+        <a href="#" class="button col menu-item">
+          <p class="menu-item-name">Home</p>
+          <i class="icon ion-ios-home"></i>
+          <span class="menu-item-amount">15$</span>
+        </a>
+        <a href="#" class="button col menu-item">
+          <p class="menu-item-name">Transportation</p>
+          <i class="icon ion-android-bus"></i>
+          <span class="menu-item-amount">15$</span>
+        </a>
+        <a href="#" class="button col menu-item">
+          <p class="menu-item-name">Phone</p>
+          <i class="icon ion-ios-telephone"></i>
+          <span class="menu-item-amount">15$</span>
+        </a>
+    </div>
+    <div class="row">
+        <a href="#" class="button col menu-item">
+          <p class="menu-item-name">Utilities</p>
+          <i class="icon menu-item-icon ion-flash"></i>
+          <span class="menu-item-amount">15$</span>
+        </a>
+        <a href="#" class="button col menu-item">
+          <p class="menu-item-name">Clothing</p>
+          <i class="icon ion-tshirt"></i>
+          <span class="menu-item-amount">15$</span>
+        </a>
+        <a href="#" class="button col menu-item">
+          <p class="menu-item-name">Miscellaneous</p>
+          <i class="icon ion-android-color-palette"></i>
+          <span class="menu-item-amount">15$</span>
+        </a>
+    </div>
+    <!-- END categories -->
   </ion-content>
 </ion-view>

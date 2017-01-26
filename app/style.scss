@@ -20,6 +20,7 @@ $ionicons-font-path: "./assets/fonts" !default;
 
 // Include all of Ionic
 @import "./lib/ionic/scss/ionic";
+@import "./components/expenses/expenses";
 
 img {
   width: 300px;

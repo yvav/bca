@@ -1,3 +1,5 @@
+'use strict';
+
 let ExtractTextPlugin = require("extract-text-webpack-plugin");
 const vendor = ['angular',
   'angular-resource',
